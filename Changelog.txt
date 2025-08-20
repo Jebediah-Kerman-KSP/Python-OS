@@ -1,0 +1,12 @@
+CHANGELOG
+
+============================================================
+additions:
+faster loading speed (decreased if statements)
+---------
+changes:
+'new' command now brought out of WIP and works (mostly)
+============================================================
+
+note:
+somethings might now work if you have any issues or find a bug just raise the issue and i will try to correct it :D
