@@ -41,7 +41,7 @@ def main():
             test        Runs a test command
             help        shows a list of commands
             new         creates a new file
-WIP         ap          Appends a file
+BROKEN      ap          Appends a file
 WIP         cd          edits a file
 WIP         del         deletes a file
               
@@ -72,12 +72,13 @@ WIP         del         deletes a file
         print('WIP')
 
     elif mi == 'dir':
+        print('broken. pls fix for me')
         # Get the list of all files and directories
-        path = "C:\Users\cem2k\Desktop\other stuff\VS Code Projects\Test"
-        dir_list = os.listdir(path)
-        print("Files and directories in '", path, "' :")
+        #path = "YOUR DIR HERE"
+        #dir_list = os.listdir(path)
+        #print("Files and directories in '", path, "' :")
         # prints all files
-        print(dir_list)
+        #print(dir_list)
 
     elif mi == 'cls':
         os.system('cls')
